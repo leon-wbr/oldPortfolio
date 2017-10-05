@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
+
+html {
+  height: 100%;
+}
+
+body {
+	margin: 0;
+  font-family: 'Poppins', sans-serif;
+	font-size: 1.1em;
+	font-weight: 100;
+  min-height: 100%;
+	text-align: center;
+}
+
+*, *:after, *:before {
+	box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0.1;
+  },
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.page-enter-active {
+  animation-name: fadeIn;
+  animation-duration: .5s;
+}
+
+.page-leave-active {
+  animation-name: fadeIn;
+  animation-direction: reverse;
+  animation-duration: 0.5s;
+}
+
+q:lang(de), q {
+  quotes: "\201E" "\201D" "\00AB" "\00BB";
+}
+
+p {
+	max-width: 35em;
+	margin: 15px auto;
+}
+
+a {
+  color: inherit;
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 2.25em;
+}
+
+h2 {
+	opacity: .5;
+	font-weight: 100;
+}
+
+h2, h3 {
+	font-size: inherit;
+}
+
+section {
+	position: relative;
+
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+@media (min-width: 800px) {
+  .Presentation {
+    .Image, .Image--half, .ImageRight, .ImageLeft {
+      & > img, & > p, & > div {
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      & > div {
+        width: 50%;
+        padding: 25px;
+      }
+
+      & > img {
+        transition: transform .5s;
+      }
+    }
+
+    .ImageRight, .ImageLeft {
+        & > img {
+          width: 100%;
+        }
+    }
+
+    .ImageRight {
+      & > div {
+        margin-left: -25%;
+      }
+
+      & > img {
+        margin-right: -75%;
+
+        &.moveIn:hover {
+          transform: translateX(-25%);
+        }
+      }
+    }
+
+    .ImageLeft {
+      & > div {
+        margin-right: -25%;
+      }
+
+      & > img {
+        margin-left: -75%;
+
+        &.moveIn:hover {
+          transform: translateX(25%);
+        }
+      }
+    }
+
+    .Image--half {
+      & > img {
+        width: 50%;
+      }
+
+      & > div {
+        width: 50%;
+      }
+    }
+
+    & > section {
+      margin: 50px 0;
+    }
+  }
+}
+
+@media (max-width: 800px) {
+  img {
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "Mockup ⇾ HTML, CSS, JS",
+  "subtitle": "prototyping a mockup",
+  "introduction": [
+    "I really like front-end development. So much, that I often create my mockups in code. It doesn't take me much longer and is more fun, creating instant results.",
+    "In a team, that is different."
+  ],
+  "dribbble": [
+    "If the developer is not the designer or the design is more complex, you'll want to create mockups before deciding on a design.",
+    "Sometimes I get to work with really brilliant designers, but often I have to come up with something myself.",
+    "When I'm out of ideas, I'll take a look at Dribbble, to look for inspiriation."
+  ],
+  "moviestreaming": [
+    "Sometimes when I explore Dribbble, I stumble upon designs that I have to try and code.",
+    "I wanted to make it a challenge: replicate the design as closely as possible without help.",
+    "While it is a bit outdated by now, I'm happy with my version of Dwinawan Hariwijaya's \"Movie Streaming\".",
+    "<a href=\"/www/moviestreaming\" target=\"_blank\">See it here.</a>"
+  ]
+}

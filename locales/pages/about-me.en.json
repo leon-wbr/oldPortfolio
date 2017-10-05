@@ -1,0 +1,105 @@
+{
+  "title": "About me",
+  "subtitle": "my resume",
+  "education": {
+      "title": "Education",
+      "school": {
+        "title": "Freie Waldorfschule Rendsburg",
+        "date": "Jul. 2006 - Oct. 2017",
+        "text": [
+          "Left without a degree. New school after the holidays. Class of 2019 (Abitur / equivalent A-Levels or AP-Tests).",
+          "Former (board) member of the elected group of the states' student representatives and actively engaged in projects like <q>Schüler helfen Schülern</q> (aid for refugees)."
+        ]
+      },
+      "exchange": {
+        "title": "Student exchange to France",
+        "date": "Sep. 2016 - Dec. 2016",
+        "text": [
+          "Three-month long mutual student exchange in Nantes, capital of the French region <q>Pays de la Loire.</q>",
+          "Attended the public lycée (high school) <q>Nelson Mandela</q> in grade Première S (Freshman year, scientific focus)."
+        ]
+      }
+  },
+  "experience": {
+    "title": "Experience",
+    "freelance": {
+      "title": "Web development and design",
+      "date": "Aug. 2015 - today",
+      "text": [
+        "Mithilfe bei verschiedenen Projekten und Aufgaben als Virtual Assistent. Gestaltung und Programmierung von Websites nach Vorgabe der Klienten.",
+        "Unter meinen Projekten sind sowohl kleine E-Commerceseiten als auch komplexe Livestreamingsysteme. Hauptsächlich englischsprachige Kontakte."
+      ]
+    },
+    "hansewerk": {
+      "title": "Internship at HanseWerk AG (formerly E.ON Hanse)",
+      "date": "Feb. 2017",
+      "text": [
+        "Zweiwöchiges Betriebspraktikum mit Einblicken in fast alle Bereiche, darunter sowohl Informations- als auch Elektrotechnik."
+      ]
+    },
+    "kahl": {
+      "title": "Internship with landscape architect Dipl.-Ing. Johannes Kahl",
+      "date": "Feb. 2017",
+      "text": [
+        "Zweiwöchiges Betriebspraktikum mit Fokus auf Design und Kreativität. Umgang mit Adobe Illustrator, Photoshop, Inkscape, Bleistift und Filzstift geübt."
+      ]
+    },
+    "czech": {
+      "title": "Field measuring internship in Czech Republic",
+      "date": "Sep. 2015",
+      "text": [
+        "Einwöchiges schulisches Praktikum im tschechischem Erzgebirge mit Schwerpunkt auf der Ausmessung des umliegenden Gebietes des Ortes Vysoka Lipa. Trigonometrie sowie andere mathematische Konzepte in der Praxis angewandt und Verständnis dieser gestärkt."
+      ]
+    }
+  },
+  "skills": {
+    "title": "Skills and knowledge",
+    "soft": {
+      "title": "General",
+      "items": [
+        "Ruhig, gut im (professionellen) Umgang mit Menschen, kompromissbereit, relativ extrovertiert",
+        "Verantwortungsbewusstsein und Führungskompetenz",
+        "Guter Autodidakt und vielfältiges Interesse"
+      ]
+    },
+    "languages": {
+      "title": "Languages",
+      "en": {
+        "title": "English ~ C2 ~ 10 Years",
+        "text": "Schulunterricht seit der ersten Klasse sowie Vertiefung in englischsprachige Lernressourcen und Anwendung in professionellem Umfeld."
+      },
+      "fr": {
+        "title": "French ~ B2 – C1 ~ 9 Years",
+        "text": "Schulunterricht sowie dreimonatiger Schulaustausch und weitere Aufenthalte in Frankreich. Gute Kenntnisse in Wort und Schrift. Problemlose, flüssige Ausdrucksweise im alltäglichen Sprachgebrauch."
+      },
+      "de": "German - Native language"
+    },
+    "cs": {
+      "title": "Informatik",
+      "programming": {
+        "title": "Programmierung",
+        "items": [
+          "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
+          "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
+          "Grundlegende bis ausgereifte Ahnung von Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
+        ]
+      },
+      "software": {
+        "title": "Programme",
+        "items": [
+          "Grafikbearbeitung: Adobe Photoshop und Illustrator, Gimp.",
+          "Videobearbeitung: Adobe Premiere.",
+          "LibreOffice Suite (großteils übertragbar auf Microsoft Office)."
+        ]
+      }
+    }
+  },
+  "other": {
+    "title": "Sonstige Interessen",
+    "items": [
+      "<b>Sport</b> - ehemaliger Teamcaptain im American Football, sowie Teil der Landesjugendauswahl des Landes Schleswig-Holstein in 2015; Kraftsport.",
+      "<b>Musik</b> – (E-)Gitarre, Ukulele, E-Bass; in mehreren Bands mit gelegentlichen Auftritten.",
+      "<b>Schreiben und Sprachen</b>"
+    ]
+  }
+}

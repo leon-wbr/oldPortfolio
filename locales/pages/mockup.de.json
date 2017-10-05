@@ -1,0 +1,19 @@
+{
+  "title": "Mockup ⇾ HTML, CSS, JS",
+  "subtitle": "von der Skizze zum Prototypen",
+  "introduction": [
+    "Mir gefällt Front-end Entwicklung so sehr, dass ich manchmal meine Skizzen mit Code entwickle. Ich brauche dafür nicht länger und es macht mehr Spaß.",
+    "In einem Team ist das was anderes."
+  ],
+  "dribbble": [
+    "Wenn der Entwickler nicht der Designer ist, oder das Design komplexer, sollte man zuerst Skizzen anfertigen bevor man den Entwurf finalisiert.",
+    "Manchmal bekomme ich die Gelegenheit mit wirklich brillanten Designern zusammenzuarbeiten, aber oft muss ich mir selbst etwas ausdenken.",
+    "Wenn ich keine Ideen mehr hab, suche ich mir Inspiration auf Dribbble."
+  ],
+  "moviestreaming": [
+    "Manchmal wenn ich Dribbble durchschaue, stolpere ich über Designs die ich einfach unbedingt umsetzen will.",
+    "Daraus wollte ich mir eine Challenge machen: das Design so akkurat wie möglich umzusetzen, ohne Hilfe.",
+    "Obgleich es nun etwas veraltet ist, bin ich zufrieden mit meiner Version von Dwinawan Hariwijayas \"Movie Streaming\"",
+    "<a href=\"/www/moviestreaming\" target=\"_blank\">Hier geht es zu meiner Version.</a>"
+  ]
+}
