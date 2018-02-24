@@ -1,96 +1,26 @@
 <template>
   <section class="Page About">
-    <section class="About__Education">
-      <h3>{{ $t('about-me.education.title') }}</h3>
-      <article :data-date="$t('about-me.education.school.date')">
-        <h4>{{ $t('about-me.education.school.title') }}</h4>
-        <p v-html="$t('about-me.education.school.text[0]')" />
-        <p v-html="$t('about-me.education.school.text[1]')" />
-      </article>
-      <article :data-date="$t('about-me.education.exchange.date')">
-        <h4>{{ $t('about-me.education.exchange.title') }}</h4>
-        <p v-html="$t('about-me.education.exchange.text[0]')" />
-        <p v-html="$t('about-me.education.exchange.text[1]')" />
-      </article>
-    </section>
-    <section class="Experience">
-  		<h3>{{ $t('about-me.experience.title') }}</h3>
-  		<article :data-date="$t('about-me.experience.freelance.date')">
-  			<h4>{{ $t('about-me.experience.freelance.title') }}</h4>
-        <p v-html="$t('about-me.experience.freelance.text[0]')" />
-        <p v-html="$t('about-me.experience.freelance.text[1]')" />
-  		</article>
-  		<article :data-date="$t('about-me.experience.hansewerk.date')">
-  			<h4>{{ $t('about-me.experience.hansewerk.title') }}</h4>
-  			<p v-html="$t('about-me.experience.hansewerk.text[0]')" />
-  		</article>
-  		<article :data-date="$t('about-me.experience.kahl.date')">
-  			<h4>{{ $t('about-me.experience.kahl.title') }}</h4>
-  			<p v-html="$t('about-me.experience.kahl.text[0]')" />
-  		</article>
-  		<article :data-date="$t('about-me.experience.czech.date')">
-  			<h4>{{ $t('about-me.experience.czech.title') }}</h4>
-  			<p v-html="$t('about-me.experience.czech.text[0]')" />
-  		</article>
-  	</section>
-    <section class="Skills">
-			<h3>{{ $t('about-me.skills.title') }}</h3>
-			<article>
-				<h4>{{ $t('about-me.skills.soft.title') }}</h4>
-				<ul>
-					<li v-html="$t('about-me.skills.soft.items[0]')" />
-					<li v-html="$t('about-me.skills.soft.items[1]')" />
-					<li v-html="$t('about-me.skills.soft.items[2]')" />
-				</ul>
-			</article>
-			<article>
-				<h4>{{ $t('about-me.skills.languages.title') }}</h4>
-				<ul style="list-style-type: none;">
-					<li>
-						<h5>{{ $t('about-me.skills.languages.en.title') }}</h5>
-						<p v-html="$t('about-me.skills.languages.en.text')" />
-					</li>
-					<li>
-						<h5>{{ $t('about-me.skills.languages.fr.title') }}</h5>
-						<p v-html="$t('about-me.skills.languages.fr.text')" />
-					</li>
-					<li>
-						<h5>{{ $t('about-me.skills.languages.de') }}</h5>
-					</li>
-				</ul>
-			</article>
-			<article>
-				<h4>{{ $t('about-me.skills.cs.title') }}</h4>
-				<ul style="list-style-type: none;">
-					<li>
-						<h5>{{ $t('about-me.skills.cs.programming.title') }}</h5>
-						<ul>
-              <li v-html="$t('about-me.skills.cs.programming.items[0]')" />
-              <li v-html="$t('about-me.skills.cs.programming.items[1]')" />
-              <li v-html="$t('about-me.skills.cs.programming.items[2]')" />
-						</ul>
-					</li>
-					<li>
-						<h5>{{ $t('about-me.skills.cs.software.title') }}</h5>
-						<ul>
-              <li v-html="$t('about-me.skills.cs.software.items[0]')" />
-              <li v-html="$t('about-me.skills.cs.software.items[1]')" />
-              <li v-html="$t('about-me.skills.cs.software.items[2]')" />
-						</ul>
-					</li>
-				</ul>
-			</article>
-    </section>
-    <section>
-      <article>
-        <h4>{{ $t('about-me.other.title') }}</h4>
-        <ul>
-          <li v-html="$t('about-me.other.items[0]')" />
-          <li v-html="$t('about-me.other.items[1]')" />
-          <li v-html="$t('about-me.other.items[2]')" />
+    <section v-for="(item, index) in $t('about-me.items')" :class="item.id">
+      <h3>{{ item.title }}</h3>
+      <article v-for="(subitem) in item.items" :class="subitem.id" :data-date="subitem.date">
+        <h4>{{ subitem.title }}</h4>
+
+        <ul v-if="subitem.type === 'list'">
+          <li v-for="(listitem) in subitem.items">
+            <h5>{{ listitem.title }}</h5>
+            <p v-for="(text) in listitem.text" v-html="text" />
+
+            <ul v-if="listitem.items">
+              <li v-for="(text) in listitem.items" v-html="text" />
+            </ul>
+          </li>
+
+          <li v-for="(text) in subitem.text" v-html="text" />
         </ul>
+
+        <p v-for="(text) in subitem.text" v-html="text" v-else />
       </article>
-		</section>
+    </section>
   </section>
 </template>
 
@@ -166,6 +96,12 @@ export default {
       opacity: .7;
       text-align: center;
       display: block;
+    }
+
+    &.Languages, &.CS {
+      & > ul {
+        list-style-type: none;
+      }
     }
   }
 

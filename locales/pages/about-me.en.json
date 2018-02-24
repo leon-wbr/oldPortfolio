@@ -1,105 +1,134 @@
 {
   "title": "About me",
-  "subtitle": "my resume",
-  "education": {
+  "subtitle": "my CV",
+  "items": [
+    {
+      "id": "Education",
       "title": "Education",
-      "school": {
-        "title": "Freie Waldorfschule Rendsburg",
-        "date": "Jul. 2006 - Oct. 2017",
-        "text": [
-          "Left without a degree. New school after the holidays. Class of 2019 (Abitur / equivalent A-Levels or AP-Tests).",
-          "Former (board) member of the elected group of the states' student representatives and actively engaged in projects like <q>Schüler helfen Schülern</q> (aid for refugees)."
-        ]
-      },
-      "exchange": {
-        "title": "Student exchange to France",
-        "date": "Sep. 2016 - Dec. 2016",
-        "text": [
-          "Three-month long mutual student exchange in Nantes, capital of the French region <q>Pays de la Loire.</q>",
-          "Attended the public lycée (high school) <q>Nelson Mandela</q> in grade Première S (Freshman year, scientific focus)."
-        ]
-      }
-  },
-  "experience": {
-    "title": "Experience",
-    "freelance": {
-      "title": "Web development and design",
-      "date": "Aug. 2015 - today",
-      "text": [
-        "Mithilfe bei verschiedenen Projekten und Aufgaben als Virtual Assistent. Gestaltung und Programmierung von Websites nach Vorgabe der Klienten.",
-        "Unter meinen Projekten sind sowohl kleine E-Commerceseiten als auch komplexe Livestreamingsysteme. Hauptsächlich englischsprachige Kontakte."
-      ]
-    },
-    "hansewerk": {
-      "title": "Internship at HanseWerk AG (formerly E.ON Hanse)",
-      "date": "Feb. 2017",
-      "text": [
-        "Zweiwöchiges Betriebspraktikum mit Einblicken in fast alle Bereiche, darunter sowohl Informations- als auch Elektrotechnik."
-      ]
-    },
-    "kahl": {
-      "title": "Internship with landscape architect Dipl.-Ing. Johannes Kahl",
-      "date": "Feb. 2017",
-      "text": [
-        "Zweiwöchiges Betriebspraktikum mit Fokus auf Design und Kreativität. Umgang mit Adobe Illustrator, Photoshop, Inkscape, Bleistift und Filzstift geübt."
-      ]
-    },
-    "czech": {
-      "title": "Field measuring internship in Czech Republic",
-      "date": "Sep. 2015",
-      "text": [
-        "Einwöchiges schulisches Praktikum im tschechischem Erzgebirge mit Schwerpunkt auf der Ausmessung des umliegenden Gebietes des Ortes Vysoka Lipa. Trigonometrie sowie andere mathematische Konzepte in der Praxis angewandt und Verständnis dieser gestärkt."
-      ]
-    }
-  },
-  "skills": {
-    "title": "Skills and knowledge",
-    "soft": {
-      "title": "General",
       "items": [
-        "Ruhig, gut im (professionellen) Umgang mit Menschen, kompromissbereit, relativ extrovertiert",
-        "Verantwortungsbewusstsein und Führungskompetenz",
-        "Guter Autodidakt und vielfältiges Interesse"
+        {
+          "title": "Heinrich-Heine-Schule Büdelsdorf",
+          "date": "Oct. 2017 - today",
+          "text": [
+            "Expecting to graduate with A-Levels in 2020.",
+            "Focus on social science. Chose music and advanced French classes."
+          ]
+        },
+        {
+          "title": "Freie Waldorfschule Rendsburg",
+          "date": "Jul. 2006 - Oct. 2017",
+          "text": [
+            "Left without a degree due to the school's insolvency.",
+            "Former member of the elected state-wide and the local student's council and helped with projects such as <q>Schüler helfen Schüler</q> (help for refugees)."
+          ]
+        },
+        {
+          "title": "Student exchange to France",
+          "date": "Sep. 2016 - Dec. 2016",
+          "text": [
+            "Three-month long, mutual student exchange to Nantes, capital of the French region <q>Pays de la Loire</q>.",
+            "Visited the <q>Lycée Nelson Mandela</q> for the time, thus having all my classes in French (Première S, focus on natural sciences)."
+          ]
+        }
       ]
     },
-    "languages": {
-      "title": "Languages",
-      "en": {
-        "title": "English ~ C2 ~ 10 Years",
-        "text": "Schulunterricht seit der ersten Klasse sowie Vertiefung in englischsprachige Lernressourcen und Anwendung in professionellem Umfeld."
-      },
-      "fr": {
-        "title": "French ~ B2 – C1 ~ 9 Years",
-        "text": "Schulunterricht sowie dreimonatiger Schulaustausch und weitere Aufenthalte in Frankreich. Gute Kenntnisse in Wort und Schrift. Problemlose, flüssige Ausdrucksweise im alltäglichen Sprachgebrauch."
-      },
-      "de": "German - Native language"
+    {
+      "id": "Experience",
+      "title": "Experience",
+      "items": [
+        {
+          "title": "Web development and design",
+          "date": "Aug. 2015 - today",
+          "text": [
+            "Helped realize several projects and complete tasks as a Virtual Assistant. Design and development of websites based on client guidelines.",
+            "Amongst my projects are small e-commerce websites as well as complex livestreaming systems. Mostly English-speaking contacts."
+          ]
+        },
+        {
+          "title": "Internship at HanseWerk AG (formerly E.ON Hanse)",
+          "date": "Feb. 2017",
+          "text": [
+            "Two-week long internship where I got to take a look at all of the company's branches, special focus on software and electrical engineering."
+          ]
+        },
+        {
+          "title": "Internship with landscape architect Dipl.-Ing. Johannes Kahl",
+          "date": "Feb. 2017",
+          "text": [
+            "Two-week long internship with a focus on design and creativity. Used Adobe Illustrator, Photoshop, Inkscape, pencils and markers a lot."
+          ]
+        }
+      ]
     },
-    "cs": {
-      "title": "Informatik",
-      "programming": {
-        "title": "Programmierung",
-        "items": [
-          "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
-          "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
-          "Grundlegende bis ausgereifte Ahnung von Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
-        ]
-      },
-      "software": {
-        "title": "Programme",
-        "items": [
-          "Grafikbearbeitung: Adobe Photoshop und Illustrator, Gimp.",
-          "Videobearbeitung: Adobe Premiere.",
-          "LibreOffice Suite (großteils übertragbar auf Microsoft Office)."
-        ]
-      }
+    {
+      "id": "Skills",
+      "title": "Skills and knowledge",
+      "items": [
+        {
+          "title": "General",
+          "type": "list",
+          "text": [
+            "Calm, skilled in (professional) professional social interactions, willing to compromise, relatively extroverted",
+            "Sense of responsibility and leadership",
+            "Good autodidact and diverse interests"
+          ]
+        },
+        {
+          "id": "Languages",
+          "title": "Languages",
+          "type": "list",
+          "items": [
+            {
+              "title": "English ~ C2 ~ 10 years",
+              "text": [
+                "Lessons in school since first grade as well as use of anglophone resources for learning, use in professional context."
+              ]
+            },
+            {
+              "title": "French ~ B2 - C1 ~ 9 years",
+              "text": [
+                "Lessons in school as well as student exchange and several other trips to France. Good knowledge in written and spoken word. Easy, fluent expression in daily use of the language."
+              ]
+            },
+            {
+              "title": "German - native language"
+            }
+          ]
+        },
+        {
+          "id": "CS",
+          "title": "Computer science",
+          "type": "list",
+          "items": [
+            {
+              "title": "Programming",
+              "items": [
+                "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
+                "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
+                "Knowledge and experience with Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
+              ]
+            },
+            {
+              "title": "Programs",
+              "items": [
+                "Graphical editing: Adobe Photoshop and Illustrator, Gimp.",
+                "Video editing: Adobe Premiere.",
+                "LibreOffice Suite (skills are mostly applicable to Microsoft Office)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Other",
+          "title": "Other interests",
+          "type": "list",
+          "text": [
+            "<b>Sports</b> - former team captain of local American football team, participated in the all-star competition of Schleswig-Holstein in 2015; weightlifting.",
+            "<b>Music</b> – electrical guitar, ukulele, electrical bass; in several bands with occasional gigs.",
+            "<b>Writing and languages.</b>"
+          ]
+        }
+      ]
     }
-  },
-  "other": {
-    "title": "Sonstige Interessen",
-    "items": [
-      "<b>Sport</b> - ehemaliger Teamcaptain im American Football, sowie Teil der Landesjugendauswahl des Landes Schleswig-Holstein in 2015; Kraftsport.",
-      "<b>Musik</b> – (E-)Gitarre, Ukulele, E-Bass; in mehreren Bands mit gelegentlichen Auftritten.",
-      "<b>Schreiben und Sprachen</b>"
-    ]
-  }
+  ]
 }

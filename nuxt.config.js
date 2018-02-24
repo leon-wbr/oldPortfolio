@@ -17,6 +17,7 @@ module.exports = {
     { src: '~assets/style.scss', lang: 'scss' }
   ],
   router: {
+    base: '/portfolio',
     middleware: ['i18n', 'pageclass']
   },
   plugins: ['~/plugins/i18n.js'],

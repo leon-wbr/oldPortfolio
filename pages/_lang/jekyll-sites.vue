@@ -1,7 +1,7 @@
 <template>
   <section class="Presentation">
     <section class="Image Image--half">
-      <img src="/jekyll-sites/1-logo.png" />
+      <img src="/portfolio/jekyll-sites/1-logo.png" />
       <div>
         <p>Jekyll is the most popular static site generator with over 30,000 stars on GitHub - for a reason: they offer free hosting for static sites.</p>
       </div>
@@ -12,11 +12,11 @@
         <p>It provided me with a simple, file-based CMS that was easy to modify and update.</p>
       </div>
       <img
-        src="/jekyll-sites/2-first-portfolio.png"
+        src="/portfolio/jekyll-sites/2-first-portfolio.png"
         class="moveIn"
       />
     </section>
-    <section :style="{ background: 'linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url(/jekyll-sites/3-liquid.png) center/cover', marginLeft: '-10%', marginRight: '-10%', padding: '10%' }">
+    <section :style="{ background: 'linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.8)), url(/portfolio/jekyll-sites/3-liquid.png) center/cover', marginLeft: '-10%', marginRight: '-10%', padding: '10%' }">
       <div>
         <p>Jekyll uses the Liquid templating engine. It provides a lot of basic features for styling and modifying text. The more advanced features, such as includes and loops, turned out to be very powerful tools.</p>
       </div>
@@ -41,7 +41,7 @@
     </section>
     <section class="ImageLeft">
       <img
-        src="/jekyll-sites/4-weusecoins.png"
+        src="/portfolio/jekyll-sites/4-weusecoins.png"
         class="moveIn"
       />
       <div>
@@ -55,13 +55,13 @@
         <p>With only one file per person, organization was as clean as it could have been without a real database.</p>
       </div>
       <img
-        src="/jekyll-sites/5-jekyll-wiki.png"
+        src="/portfolio/jekyll-sites/5-jekyll-wiki.png"
         class="moveIn"
       />
     </section>
     <section class="ImageLeft">
       <img
-        src="/jekyll-sites/6-jekyll-search.png"
+        src="/portfolio/jekyll-sites/6-jekyll-search.png"
         class="moveIn"
       />
       <div>

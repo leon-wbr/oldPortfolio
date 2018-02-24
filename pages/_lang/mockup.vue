@@ -6,7 +6,7 @@
       </div>
     </section>
     <section class="Image">
-      <img src="http://wwwimages.adobe.com/www.adobe.com/content/dam/Adobe/en/inspire/2012/08/ten-steps-photoshop-cs6/fig04.jpg" :style="{ marginRight: '50px' }" />
+      <img src="http://1.bp.blogspot.com/-cprzTGIR-Tg/VCH8j1XtC_I/AAAAAAAAKRs/Am-bGiOIpPw/s1600/content%2Baware%2Bmove%2Btool.jpg" :style="{ marginRight: '50px' }" />
       <div>
         <p v-for="(item, index) in $t('mockup.dribbble')" v-html="item" />
       </div>

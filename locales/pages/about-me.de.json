@@ -1,105 +1,141 @@
 {
   "title": "Über mich",
   "subtitle": "mein Lebenslauf",
-  "education": {
+  "items": [
+    {
+      "id": "Education",
       "title": "Bildungsweg",
-      "school": {
-        "title": "Freie Waldorfschule Rendsburg",
-        "date": "Jul. 2006 - Okt. 2017",
-        "text": [
-          "Ohne Abschluss abgegangen. Neue Schule nach den Herbstferien. Voraussichtlicher Abschluss: Abitur 2019.",
-          "Mitglied (teils auch im Vorstand) der von der Schülerschaft gewählten Landesschülervertretung und engagiert bei Projekten wie z.B. <q>Schüler helfen Schülern</q> (Flüchtlingshilfe)."
-        ]
-      },
-      "exchange": {
-        "title": "Frankreichaufenthalt",
-        "date": "Sep. 2016 - Dez. 2016",
-        "text": [
-          "Dreimonatiger, auf Gegenseitigkeit beruhender Schulaustausch in Nantes, Hauptstadt der französischen Region <q>Pays de la Loire.</q>",
-          "Besuch des staatlichen Lycées (Gymnasium) <q>Nelson Mandela,</q> Jahrgang Première S (11. Klasse, Wissenschaftsprofil)."
-        ]
-      }
-  },
-  "experience": {
-    "title": "Praxiserfahrung",
-    "freelance": {
-      "title": "Webentwicklung und -design",
-      "date": "Aug. 2015 - heute",
-      "text": [
-        "Mithilfe bei verschiedenen Projekten und Aufgaben als Virtual Assistent. Gestaltung und Programmierung von Websites nach Vorgabe der Klienten.",
-        "Unter meinen Projekten sind sowohl kleine E-Commerceseiten als auch komplexe Livestreamingsysteme. Hauptsächlich englischsprachige Kontakte."
-      ]
-    },
-    "hansewerk": {
-      "title": "Praktikum bei der HanseWerk AG (ehem. E.ON Hanse)",
-      "date": "Feb. 2017",
-      "text": [
-        "Zweiwöchiges Betriebspraktikum mit Einblicken in fast alle Bereiche, darunter sowohl Informations- als auch Elektrotechnik."
-      ]
-    },
-    "kahl": {
-      "title": "Praktikum bei Landschaftsarchitekt Dipl.-Ing. Johannes Kahl",
-      "date": "Feb. 2017",
-      "text": [
-        "Zweiwöchiges Betriebspraktikum mit Fokus auf Design und Kreativität. Umgang mit Adobe Illustrator, Photoshop, Inkscape, Bleistift und Filzstift geübt."
-      ]
-    },
-    "czech": {
-      "title": "Feldmesspraktikum in Tschechien",
-      "date": "Sep. 2015",
-      "text": [
-        "Einwöchiges schulisches Praktikum im tschechischem Erzgebirge mit Schwerpunkt auf der Ausmessung des umliegenden Gebietes des Ortes Vysoka Lipa. Trigonometrie sowie andere mathematische Konzepte in der Praxis angewandt und Verständnis dieser gestärkt."
-      ]
-    }
-  },
-  "skills": {
-    "title": "Fähigkeiten und Kenntnisse",
-    "soft": {
-      "title": "Allgemein",
       "items": [
-        "Ruhig, gut im (professionellen) Umgang mit Menschen, kompromissbereit, relativ extrovertiert",
-        "Verantwortungsbewusstsein und Führungskompetenz",
-        "Guter Autodidakt und vielfältiges Interesse"
+        {
+          "title": "Heinrich-Heine-Schule Büdelsdorf",
+          "date": "Okt. 2017 - heute",
+          "text": [
+            "Voraussichtlicher Abschluss: Abitur 2020.",
+            "Gesellschaftswissenschaftliches Profil mit dem Profilfach Wirtschaft-Politik. Wahlfächer Musik und Französisch fortgeschritten."
+          ]
+        },
+        {
+          "title": "Freie Waldorfschule Rendsburg",
+          "date": "Jul. 2006 - Okt. 2017",
+          "text": [
+            "Ohne Abschluss im 12. Jahrgang abgegangen aufgrund von Insolvenzverfahren der Schule.",
+            "Mitglied (teils auch im Vorstand) der von der Schülerschaft gewählten Landesschülervertretung und engagiert bei Projekten wie z.B. <q>Schüler helfen Schülern</q> (Flüchtlingshilfe)."
+          ]
+        },
+        {
+          "title": "Frankreichaufenthalt",
+          "date": "Sep. 2016 - Dez. 2016",
+          "text": [
+            "Dreimonatiger, auf Gegenseitigkeit beruhender Schulaustausch in Nantes, Hauptstadt der französischen Region <q>Pays de la Loire.</q>",
+            "Besuch des staatlichen Lycées (Gymnasium) <q>Nelson Mandela,</q> Jahrgang Première S (11. Klasse, Wissenschaftsprofil)."
+          ]
+        }
       ]
     },
-    "languages": {
-      "title": "Sprachen",
-      "en": {
-        "title": "Englisch ~ C2 ~ 10 Jahre",
-        "text": "Schulunterricht seit der ersten Klasse sowie Vertiefung in englischsprachige Lernressourcen und Anwendung in professionellem Umfeld."
-      },
-      "fr": {
-        "title": "Französisch ~ B2 – C1 ~ 9 Jahre",
-        "text": "Schulunterricht sowie dreimonatiger Schulaustausch und weitere Aufenthalte in Frankreich. Gute Kenntnisse in Wort und Schrift. Problemlose, flüssige Ausdrucksweise im alltäglichen Sprachgebrauch."
-      },
-      "de": "Deutsch – Muttersprache"
+    {
+      "id": "Experience",
+      "title": "Praxiserfahrung",
+      "items": [
+        {
+          "title": "Webentwicklung und -design",
+          "date": "Aug. 2015 - heute",
+          "text": [
+            "Mithilfe bei verschiedenen Projekten und Aufgaben als Virtual Assistent. Gestaltung und Programmierung von Websites nach Vorgabe der Klienten.",
+            "Unter meinen Projekten sind sowohl kleine E-Commerceseiten als auch komplexe Livestreamingsysteme. Hauptsächlich englischsprachige Kontakte."
+          ]
+        },
+        {
+          "title": "Praktikum bei der HanseWerk AG (ehem. E.ON Hanse)",
+          "date": "Feb. 2017",
+          "text": [
+            "Zweiwöchiges Betriebspraktikum mit Einblicken in fast alle Bereiche, darunter sowohl Informations- als auch Elektrotechnik."
+          ]
+        },
+        {
+          "title": "Praktikum bei Landschaftsarchitekt Dipl.-Ing. Johannes Kahl",
+          "date": "Feb. 2017",
+          "text": [
+            "Zweiwöchiges Betriebspraktikum mit Fokus auf Design und Kreativität. Umgang mit Adobe Illustrator, Photoshop, Inkscape, Bleistift und Filzstift geübt."
+          ]
+        },
+        {
+          "title": "Feldmesspraktikum in Tschechien",
+          "date": "Sep. 2015",
+          "text": [
+            "Einwöchiges schulisches Praktikum im tschechischem Erzgebirge mit Schwerpunkt auf der Ausmessung des umliegenden Gebietes des Ortes Vysoka Lipa. Trigonometrie sowie andere mathematische Konzepte in der Praxis angewandt und Verständnis dieser gestärkt."
+          ]
+        }
+      ]
     },
-    "cs": {
-      "title": "Informatik",
-      "programming": {
-        "title": "Programmierung",
-        "items": [
-          "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
-          "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
-          "Grundlegende bis ausgereifte Ahnung von Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
-        ]
-      },
-      "software": {
-        "title": "Programme",
-        "items": [
-          "Grafikbearbeitung: Adobe Photoshop und Illustrator, Gimp.",
-          "Videobearbeitung: Adobe Premiere.",
-          "LibreOffice Suite (großteils übertragbar auf Microsoft Office)."
-        ]
-      }
+    {
+      "id": "Skills",
+      "title": "Fähigkeiten und Kenntnisse",
+      "items": [
+        {
+          "title": "Allgemein",
+          "type": "list",
+          "text": [
+            "Ruhig, gut im (professionellen) Umgang mit Menschen, kompromissbereit, relativ extrovertiert",
+            "Verantwortungsbewusstsein und Führungskompetenz",
+            "Guter Autodidakt und vielfältiges Interesse"
+          ]
+        },
+        {
+          "id": "Languages",
+          "title": "Sprachen",
+          "type": "list",
+          "items": [
+            {
+              "title": "Englisch ~ C2 ~ 10 Jahre",
+              "text": [
+                "Schulunterricht seit der ersten Klasse sowie Vertiefung in englischsprachige Lernressourcen und Anwendung in professionellem Umfeld."
+              ]
+            },
+            {
+              "title": "Französisch ~ B2 - C1 ~ 9 Jahre",
+              "text": [
+                "Schulunterricht sowie dreimonatiger Schulaustausch und weitere Aufenthalte in Frankreich. Gute Kenntnisse in Wort und Schrift. Problemlose, flüssige Ausdrucksweise im alltäglichen Sprachgebrauch."
+              ]
+            },
+            {
+              "title": "Deutsch - Muttersprache"
+            }
+          ]
+        },
+        {
+          "id": "CS",
+          "title": "Informatik",
+          "type": "list",
+          "items": [
+            {
+              "title": "Programmierung",
+              "items": [
+                "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
+                "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
+                "Grundlegende bis ausgereifte Ahnung von Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
+              ]
+            },
+            {
+              "title": "Programme",
+              "items": [
+                "Grafikbearbeitung: Adobe Photoshop und Illustrator, Gimp.",
+                "Videobearbeitung: Adobe Premiere.",
+                "LibreOffice Suite (großteils übertragbar auf Microsoft Office)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Other",
+          "title": "Sonstige Interessen",
+          "type": "list",
+          "text": [
+            "<b>Sport</b> - ehemaliger Teamcaptain im American Football, sowie Teil der Landesjugendauswahl des Landes Schleswig-Holstein in 2015; Kraftsport.",
+            "<b>Musik</b> – (E-)Gitarre, Ukulele, E-Bass; in mehreren Bands mit gelegentlichen Auftritten.",
+            "<b>Schreiben und Sprachen</b>"
+          ]
+        }
+      ]
     }
-  },
-  "other": {
-    "title": "Sonstige Interessen",
-    "items": [
-      "<b>Sport</b> - ehemaliger Teamcaptain im American Football, sowie Teil der Landesjugendauswahl des Landes Schleswig-Holstein in 2015; Kraftsport.",
-      "<b>Musik</b> – (E-)Gitarre, Ukulele, E-Bass; in mehreren Bands mit gelegentlichen Auftritten.",
-      "<b>Schreiben und Sprachen</b>"
-    ]
-  }
+  ]
 }

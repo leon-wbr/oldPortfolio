@@ -28,7 +28,7 @@
       <ProjectsItem
         :title="$t('about-me.title')"
         :description="$t('about-me.subtitle')"
-        image="about-me/1-me.png"
+        image="/portfolio/about-me/1-me.jpg"
         size="half"
         direction="right"
         link='about-me'
@@ -43,14 +43,14 @@
       <ProjectsItem
         :title="$t('jekyll-sites.title')"
         :description="$t('jekyll-sites.subtitle')"
-        image="/jekyll-sites/1-logo.png"
+        image="/portfolio/jekyll-sites/1-logo.png"
         link="jekyll-sites"
         size="full"
       />
       <ProjectsItem
         title="@leon.wbr"
         description="my instagram"
-        image="https://scontent-ams3-1.cdninstagram.com/t51.2885-15/e35/22157515_287004398456448_6386921775686483968_n.jpg"
+        image="https://scontent-frx5-1.cdninstagram.com/vp/b8649095defe2c9b4cfe3c957add1136/5B2C5487/t51.2885-15/e35/27878942_2046028679004970_8473985026357198848_n.jpg"
         size="half"
         direction="left"
         link="https://instagram.com/leon.wbr"

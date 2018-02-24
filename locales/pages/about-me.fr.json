@@ -1,0 +1,134 @@
+{
+  "title": "mon CV",
+  "subtitle": "toute ma vie",
+  "items": [
+    {
+      "id": "Education",
+      "title": "Formation",
+      "items": [
+        {
+          "title": "Heinrich-Heine-Schule Büdelsdorf",
+          "date": "août 2017 - aujourd'hui",
+          "text": [
+            "Prévu : Abitur (bac) en 2020.",
+            "Fichier ES. Option musique et français avancée."
+          ]
+        },
+        {
+          "title": "École Steiner-Waldorf à Rendsburg",
+          "date": "juillet 2006 - octobre 2017",
+          "text": [
+            "Parti sans diplôme à cause de l'insolvabilité de l'école.",
+            "Ancien élu des représentantes des écoles Steiner dans la région de Schleswig-Holstein et ma ville. J'ai aussi aidé à réaliser des projects comme <q>Schüler helfen Schüler</a> (aide pour les réfugiés.)"
+          ]
+        },
+        {
+          "title": "Échange scolaire en France",
+          "date": "septembre 2016 - decembre 2016",
+          "text": [
+            "Échange mutuelle de trois mois à Nantes, la capitale de la région française <q>Pays de la Loire</a>.",
+            "Visite du <q>lycée Nelson Mandela</q> pendant mon séjour, ainsi eu tous mes cours en français (Première S)."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Experience",
+      "title": "Expériences",
+      "items": [
+        {
+          "title": "Designer et développeur web",
+          "date": "août 2015 - aujourd'hui",
+          "text": [
+            "Aide en réalisation de plusieurs projets et taches comme Virtual Assistant. Design et développement des sites webs à part des désirs de clients.",
+            "J'ai déjà fait des petites sites web (comme les commerces electroniques) ainsi que des systèmes de livestreaming. La plupart des clients étaient anglophones."
+          ]
+        },
+        {
+          "title": "Stage à HanseWerk AG (avant connu comme E.ON Hanse)",
+          "date": "février 2017",
+          "text": [
+            "Stage de deux semaines où j'avais l'opportunité de découvrir tous les branches de l'entreprise, en particulier celles de l'informatique et de l'électrotechnique."
+          ]
+        },
+        {
+          "title": "Stage chez l'architecte paysagiste Dipl.-Ing. Johannes Kahl",
+          "date": "février 2017",
+          "text": [
+            "Stage de deux semaines avec un thème de design et créativité. Utilisation d'Adobe Illustrator, Photoshop, Inkscape et des crayons."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Skills",
+      "title": "Compétences et connaissances",
+      "items": [
+        {
+          "title": "Général",
+          "type": "list",
+          "text": [
+            "Calm, skilled in (professional) professional social interactions, willing to compromise, relatively extroverted",
+            "Sense of responsibility and leadership",
+            "Good autodidact and diverse interests"
+          ]
+        },
+        {
+          "id": "Languages",
+          "title": "Langues",
+          "type": "list",
+          "items": [
+            {
+              "title": "Anglais ~ C2 ~ 10 ans",
+              "text": [
+                "Apprise à l'école depuis la première année ainsi que l'utilisation des ressources éducatives anglophones et application dans le contexte professionel."
+              ]
+            },
+            {
+              "title": "Français ~ B2 - C1 ~ 9 ans",
+              "text": [
+                "Apprise à l'école ainsi qu'un échange scolaire et d'autres voyages en France. Expression facile et couramment à la quotidienne."
+              ]
+            },
+            {
+              "title": "Allemand - langue maternelle"
+            }
+          ]
+        },
+        {
+          "id": "CS",
+          "title": "Informatique",
+          "type": "list",
+          "items": [
+            {
+              "title": "Programmation",
+              "items": [
+                "HTML (Jade, HAML, Liquid, etc.), CSS (Sass), JavaScript (jQuery, CoffeeScript, React, Angular, Vue.js, ECMAScript 6).",
+                "Ruby (on Rails), Java (Eclipse, Android), PHP (Symfony, Wordpress), Python.",
+                "Apache, Nginx, Wowza, Nimble, Linux, Windows, SQL (MySQL, Postgres, NoSQL, etc)."
+              ]
+            },
+            {
+              "title": "Applications",
+              "items": [
+                "Graphical editing: Adobe Photoshop and Illustrator, Gimp.",
+                "Video editing: Adobe Premiere.",
+                "LibreOffice Suite (skills are mostly applicable to Microsoft Office)."
+              ]
+            }
+          ]
+        },
+        {
+          "id": "Other",
+          "title": "Other interests",
+          "type": "list",
+          "text": [
+            "<b>Sports</b> - former team captain of local American football team, participated in the all-star competition of Schleswig-Holstein in 2015; weightlifting.",
+            "<b>Music</b> – electrical guitar, ukulele, electrical bass; in several bands with occasional gigs.",
+            "<b>Writing and languages.</b>"
+          ]
+        }
+      ]
+    }
+  ]
+}
